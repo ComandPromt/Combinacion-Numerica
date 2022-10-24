@@ -15,10 +15,13 @@ public class Prueba {
 			if (i > 1) {
 
 				--vueltas;
+			
 			}
 
 			else {
-				vueltas = opciones - (combinacion - 1);
+				
+				vueltas = --opciones;
+			
 			}
 
 			int y = 1;
